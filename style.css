@@ -4,5 +4,12 @@
 
 body {
     max-width: 800px;
-    margin: auto 10px;
+    margin: 10px auto;
+    font-size: 1.125rem;
+    line-height: 1.2;
+    max-width: 65ch;
+}
+
+nav a:not(:last-child) {
+    margin-right: 10px;
 }
